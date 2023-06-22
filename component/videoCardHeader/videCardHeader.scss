@@ -1,0 +1,25 @@
+.videoCardHeader{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: fit-content;
+    padding-bottom: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    video{
+        object-fit: cover;
+        transition: all 3s cubic-bezier(.1,.005,0,1.005);
+        transition-timing-function: cubic-bezier(.1,.005,0,1.005);
+        border-radius: 1rem;
+        width: 100%;
+        display: block;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    }
+    .text__video{
+        padding-top:1rem;
+        font-size: 1.2rem;
+        align-self: center;
+    }
+}
