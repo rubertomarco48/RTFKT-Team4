@@ -7,11 +7,11 @@
 .sup {
   /* margin-top: 5rem; */
   
-  width: 95%;
+  width: 100%;
   height: auto;
   display: flex;
   .left {
-    padding: 4rem;
+    padding:5rem 0.5rem 0 3rem;
     width: 55%;
     .subtitle {
       letter-spacing: 1.6px;
@@ -39,5 +39,6 @@
   }
   .right {
     width: 40%; //da settare meglio
+    padding-left: 2rem;
   }
 }

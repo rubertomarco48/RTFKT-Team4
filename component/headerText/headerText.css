@@ -5,12 +5,12 @@
 }
 .sup {
   /* margin-top: 5rem; */
-  width: 95%;
+  width: 100%;
   height: auto;
   display: flex;
 }
 .sup .left {
-  padding: 4rem;
+  padding: 5rem 0.5rem 0 3rem;
   width: 55%;
 }
 .sup .left .subtitle {
@@ -38,4 +38,5 @@
 }
 .sup .right {
   width: 40%;
+  padding-left: 2rem;
 }/*# sourceMappingURL=headerText.css.map */
