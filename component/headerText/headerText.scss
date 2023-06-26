@@ -10,9 +10,12 @@
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
   .left {
-    padding:5rem 0.5rem 0 3rem;
-    width: 55%;
+    /* padding:5rem 0.5rem 0 3rem; */
+    width: auto;
     .subtitle {
       letter-spacing: 1.6px;
       font-family: "Sohne";
@@ -39,6 +42,6 @@
   }
   .right {
     width: 40%; //da settare meglio
-    padding-left: 2rem;
+    
   }
 }

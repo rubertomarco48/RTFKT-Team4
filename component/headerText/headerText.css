@@ -8,10 +8,13 @@
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
 }
 .sup .left {
-  padding: 5rem 0.5rem 0 3rem;
-  width: 55%;
+  /* padding:5rem 0.5rem 0 3rem; */
+  width: auto;
 }
 .sup .left .subtitle {
   letter-spacing: 1.6px;
@@ -38,5 +41,4 @@
 }
 .sup .right {
   width: 40%;
-  padding-left: 2rem;
 }/*# sourceMappingURL=headerText.css.map */
