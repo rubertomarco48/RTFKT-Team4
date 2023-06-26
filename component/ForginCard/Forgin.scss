@@ -1,0 +1,88 @@
+
+body{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #1e2025;
+
+}
+.Forging{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1390px;
+        min-height: 500px;     
+        background: #272932;
+        border-radius:1rem;
+    }
+    
+    &__image{
+        min-height: 500px;
+        border-radius:1rem;
+        box-shadow: 0 2px 32px #1d1c23cc;
+    }
+   &__descrizione{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 90px;
+   }
+   &__title{
+    align-items: center;
+    max-width: 300px;
+
+    color:white;
+    font-size: 24px;
+}
+&__paragraph{
+    max-width: 300px;
+    color: #A3A6B5 ;
+}
+
+
+
+&__search{
+    border-radius:1rem ;
+    background: transparent;
+    min-width: 298px;
+    min-height: 48px;
+    outline: blue;
+    border: 0.1px solid rgba(255, 255, 255, 0.621);
+    padding: 0 1rem;
+    font-size: 14px;
+}
+&__search:focus{
+    border:0.1px solid blue ;
+}
+&__search[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+  }
+
+  &__button{
+    margin-top: 1rem;
+    border-radius:1rem ;
+    border: none;
+    min-width: 175px;
+    min-height: 48px;
+    background-color: #FFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+&__button:hover{
+    background:whitesmoke;
+    opacity:1 ;
+    cursor: pointer;
+}
+
+ 
+
+}
