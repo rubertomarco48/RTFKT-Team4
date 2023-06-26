@@ -7,6 +7,7 @@ body{
 
 }
 .Forging{
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 1390px;
+        width: 912px;
         min-height: 500px;     
         background: #272932;
         border-radius:1rem;
@@ -23,6 +24,7 @@ body{
     
     &__image{
         min-height: 500px;
+        width: 532px;
         border-radius:1rem;
         box-shadow: 0 2px 32px #1d1c23cc;
     }
@@ -31,18 +33,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 18px 90px;
+    padding: 18px 60px;
+
    }
    &__title{
     align-items: center;
-    max-width: 300px;
-
+    max-width: 180px;
+    
     color:white;
     font-size: 24px;
 }
 &__paragraph{
     max-width: 300px;
     color: #A3A6B5 ;
+    max-width: 180px;
+    font: 14px;
+    
 }
 
 

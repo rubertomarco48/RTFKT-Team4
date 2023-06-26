@@ -5,6 +5,7 @@ body {
 }
 
 .Forging {
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,13 +14,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1390px;
+  width: 912px;
   min-height: 500px;
   background: #272932;
   border-radius: 1rem;
 }
 .Forging__image {
   min-height: 500px;
+  width: 532px;
   border-radius: 1rem;
   box-shadow: 0 2px 32px rgba(29, 28, 35, 0.8);
 }
@@ -28,17 +30,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 18px 90px;
+  padding: 18px 60px;
 }
 .Forging__title {
   align-items: center;
-  max-width: 300px;
+  max-width: 180px;
   color: white;
   font-size: 24px;
 }
 .Forging__paragraph {
   max-width: 300px;
   color: #A3A6B5;
+  max-width: 180px;
+  font: 14px;
 }
 .Forging__search {
   border-radius: 1rem;
@@ -73,4 +77,5 @@ body {
   background: whitesmoke;
   opacity: 1;
   cursor: pointer;
-}/*# sourceMappingURL=Forgin.css.map */
+}
+/*# sourceMappingURL=Forgin.css.map */
