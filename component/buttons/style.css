@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/ebaf90e665954316d40b79a1c7c942c0?family=TT+Alientz+Grotesque");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1f2028;
+  font-family: "Montserrat";
+}
+
+.buttonsDarke, .buttonsLighter {
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #5733f5;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.95rem 1.25rem;
+  white-space: nowrap;
+}
+.buttonsDarke:hover, .buttonsLighter:hover {
+  background-color: #2b1c6a;
+  cursor: pointer;
+}
+
+.buttonsLighter {
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  color: white;
+}
+.buttonsLighter:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}/*# sourceMappingURL=style.css.map */
