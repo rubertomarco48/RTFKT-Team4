@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.top__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+.top__nav .logo__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 80px;
+  padding-left: 24px;
+}
+.top__nav .logo__image a img {
+  width: 151px;
+  height: 24px;
+}
+.top__nav .right__nav {
+  display: flex;
+  align-items: center;
+}
+.top__nav .right__nav .transparent__button {
+  display: flex;
+}
+.top__nav .right__nav .transparent__button .drops__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  width: 138px;
+  height: 80px;
+}
+.top__nav .right__nav .transparent__button .drops__cont a {
+  font-family: "Sohne Breit";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.top__nav .right__nav .transparent__button .creat__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 80px;
+  margin-right: 24px;
+}
+.top__nav .right__nav .transparent__button .creat__cont a {
+  font-family: "Sohne Breit";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.top__nav .right__nav .transparent__button .coll__cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 139px;
+  height: 80px;
+  margin-right: 24px;
+}
+.top__nav .right__nav .transparent__button .coll__cont a {
+  font-family: "Sohne Breit";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.top__nav .right__nav .transparent__button .wtf__cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 80px;
+  margin-right: 24px;
+}
+.top__nav .right__nav .transparent__button .wtf__cont a {
+  font-family: "Sohne Breit";
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.6px;
+  white-space: nowrap;
+}
+.top__nav .right__nav .rounded__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 80px;
+  padding-right: 24px;
+}
+.top__nav .right__nav .rounded__button button {
+  font-family: "Sohne Breit";
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  width: 104px;
+  height: 48px;
+  border-radius: 25px;
+  background-color: #5733f5;
+  border: none;
+}
+.top__nav .right__nav .rounded__button button:hover {
+  background-color: #3f16f4;
+}/*# sourceMappingURL=style.css.map */
