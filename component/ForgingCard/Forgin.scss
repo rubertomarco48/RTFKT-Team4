@@ -11,20 +11,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Sohne";
 
     &__desc{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 912px;
-        min-height: 500px;     
+        max-width: 1000px;
+        max-height: 500px;     
         background: #272932;
         border-radius:1rem;
     }
     
     &__image{
         min-height: 500px;
-        width: 532px;
+        width: 592px;
         border-radius:1rem;
         box-shadow: 0 2px 32px #1d1c23cc;
     }
@@ -33,20 +34,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 18px 60px;
-
+    padding: 16px 26px;
+    margin: 0 66px;
    }
    &__title{
     align-items: center;
-    max-width: 180px;
-    
+    max-width: 280px;
     color:white;
     font-size: 24px;
 }
 &__paragraph{
-    max-width: 300px;
+    max-width: 280px;
     color: #A3A6B5 ;
-    max-width: 180px;
+ 
     font: 14px;
     
 }
@@ -56,7 +56,7 @@ body{
 &__search{
     border-radius:1rem ;
     background: transparent;
-    min-width: 298px;
+    min-width: 258px;
     min-height: 48px;
     outline: blue;
     border: 0.1px solid rgba(255, 255, 255, 0.621);
@@ -77,7 +77,7 @@ body{
     margin-top: 1rem;
     border-radius:1rem ;
     border: none;
-    min-width: 175px;
+    min-width: 145px;
     min-height: 48px;
     background-color: #FFFF;
     font-size: 16px;
