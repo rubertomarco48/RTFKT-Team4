@@ -11,4 +11,7 @@
 body {
   width: 100vw;
   height: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=common.css.map */

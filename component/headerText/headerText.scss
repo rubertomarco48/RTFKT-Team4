@@ -5,12 +5,14 @@
 }
 
 .sup {
-  background-color: black; //da rimuovere
+  /* margin-top: 5rem; */
+  
   width: 95%;
   height: auto;
   display: flex;
   .left {
-    width: 60%;
+    padding: 4rem;
+    width: 55%;
     .subtitle {
       letter-spacing: 1.6px;
       font-family: "Sohne";

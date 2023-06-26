@@ -4,13 +4,14 @@
   src: url("../../assets/font/TT_Alientz_Var.ttf");
 }
 .sup {
-  background-color: black;
+  /* margin-top: 5rem; */
   width: 95%;
   height: auto;
   display: flex;
 }
 .sup .left {
-  width: 60%;
+  padding: 4rem;
+  width: 55%;
 }
 .sup .left .subtitle {
   letter-spacing: 1.6px;

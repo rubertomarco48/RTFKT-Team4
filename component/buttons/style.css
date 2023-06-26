@@ -4,11 +4,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #1f2028;
   font-family: "Montserrat";
 }
 
 .buttonsDarke, .buttonsLighter {
+  margin-top: 2rem;
   font-family: "Montserrat";
   font-weight: 800;
   text-transform: uppercase;
@@ -25,6 +25,7 @@ body {
 }
 
 .buttonsLighter {
+  margin-top: 1.5rem;
   background-color: transparent;
   border: 1px solid #6c757d;
   color: white;
