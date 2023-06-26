@@ -12,6 +12,8 @@ I componenti del nostro Team sono :
 
 -Michael Renna
 
+-Silvia Palazzotto
+
 -Ibrahima Tely Barry
 
 Il lavoro sarà suddiviso utilizzando il metodo AGILE e avvalendosi di strumenti come Visual Studio Code, Trello, Discord e GitHub.
