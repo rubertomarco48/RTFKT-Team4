@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Sohne";
+  src: url("../../assets/font/sohne.otf");
+}
 * {
   margin: 0;
   padding: 0;
