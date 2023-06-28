@@ -55,6 +55,7 @@ body {
   padding: 0 1rem;
   font-size: 14px;
   margin-top: 1rem;
+  color: white;
 }
 .Forging__search:focus {
   border: 0.1px solid blue;

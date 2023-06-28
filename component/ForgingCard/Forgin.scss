@@ -28,7 +28,7 @@ body{
         width: 832px;
         border-radius:1rem;
         box-shadow: 0 2px 32px #1d1c23cc;
-    }
+    }   
    &__descrizione{
     display: flex;
     flex-direction: column;
@@ -63,6 +63,8 @@ body{
     padding: 0 1rem;
     font-size: 14px;
     margin-top: 1rem;
+    color: white;
+
 }
 &__search:focus{
     border:0.1px solid blue ;
