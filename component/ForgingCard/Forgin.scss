@@ -17,7 +17,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 1000px;
+        width: 1300px;
         max-height: 500px;     
         background: #272932;
         border-radius:1rem;
@@ -25,7 +25,7 @@ body{
     
     &__image{
         min-height: 500px;
-        width: 592px;
+        width: 832px;
         border-radius:1rem;
         box-shadow: 0 2px 32px #1d1c23cc;
     }

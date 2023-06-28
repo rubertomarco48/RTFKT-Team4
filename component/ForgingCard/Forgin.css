@@ -15,14 +15,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  width: 1300px;
   max-height: 500px;
   background: #272932;
   border-radius: 1rem;
 }
 .Forging__image {
   min-height: 500px;
-  width: 592px;
+  width: 832px;
   border-radius: 1rem;
   box-shadow: 0 2px 32px rgba(29, 28, 35, 0.8);
 }
