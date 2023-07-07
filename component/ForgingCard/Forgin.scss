@@ -3,7 +3,6 @@ body{
    
     display: flex;
     justify-content: center;
-    background-color: #1e2025;
 
 }
 .Forging{
@@ -17,7 +16,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 1300px;
+        max-width: 1200px;
         max-height: 500px;     
         background: #272932;
         border-radius:1rem;
@@ -25,7 +24,7 @@ body{
     
     &__image{
         min-height: 500px;
-        width: 832px;
+        max-width: 732px;
         border-radius:1rem;
         box-shadow: 0 2px 32px #1d1c23cc;
     }   
@@ -46,9 +45,7 @@ body{
 &__paragraph{
     max-width: 280px;
     color: #A3A6B5 ;
- 
     font: 14px;
-    
 }
 
 
@@ -64,10 +61,11 @@ body{
     font-size: 14px;
     margin-top: 1rem;
     color: white;
-
 }
+
 &__search:focus{
     border:0.1px solid blue ;
+
 }
 &__search[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
@@ -92,6 +90,115 @@ body{
     cursor: pointer;
 }
 
- 
-
+@media (max-width: 470px) {
+    .Forging {
+        &__desc{
+            margin-top: 2rem;
+            flex-direction: column;
+            max-height: 580px;
+            max-width: 345px;
+        }
+        &__image{
+            min-height: 200px;
+            max-width: 343px;
+            border-radius:1rem;
+        }  
+        &__descrizione{
+            padding: 16px 20px;
+            margin: 0 20px;
+            padding-bottom: 3rem;
+        }
+        &__title{
+           
+            color:white;
+            font-size: 20px;
+        }
+        &__paragraph{
+            color: #A3A6B5 ;      
+            font-size: 14px;
+            
+        }
+        &__search{
+            min-width: 300px;
+        }
+        &__button{
+            min-width: 300px;
+        }
+    }
+  }
 }
+
+
+// @media (max-width: 475px) {
+//     .Forging {
+
+//         &__desc{
+//             margin-top: 2rem;
+//             flex-direction: column;
+//             min-height: 600px;
+//             max-width: 380px;
+//         }
+//         &__image{
+//             margin-bottom: 2rem;
+//             min-height: 200px;
+//             max-width: 380px;
+//             border-radius:1rem;
+//         }  
+//         &__descrizione{
+//             padding: 16px 20px;
+//         }
+//         &__title{
+           
+//             color:white;
+//             font-size: 22px;
+//         }
+//         &__paragraph{
+//             color: #A3A6B5 ;      
+//             font: 14px;
+            
+//         }
+//         &__search{
+//             width: 300px;      
+//         }
+        
+//     }  
+    
+//   }
+
+
+//   @media (max-width: 768px) {
+//     .Forging {
+//         &__desc{
+//         margin-top: 1rem;
+//             flex-direction: column;
+//             max-height: 600px;
+//             width: 400px;
+//         }
+//         &__image{
+//             margin-bottom: 2rem;
+//             min-height: 200px;
+//             width: 400px;
+//             border-radius:1rem;
+//             box-shadow: 0 2px 32px #1d1c23cc;
+//         }  
+//         &__descrizione{
+//             padding: 16px 20px;
+//             margin: 0 20px;
+//         }
+//         &__title{
+           
+//             color:white;
+//             font-size: 22px;
+//         }
+//         &__paragraph{
+//             color: #A3A6B5 ;      
+//             font: 14px;
+            
+//         }
+//         &__search{
+//             width: 300px;      
+//         }
+        
+//     }  
+    
+//   }
