@@ -1,16 +1,13 @@
-.space{
-    width:400px;
-    margin-left:400px;
-}
-
 .container__snap{
     background-color:#272932;
     display: flex;
     position: relative;
     border-radius:1rem;
+    padding:5%;
     .container__snap__p{
         color: white;
         writing-mode:vertical-rl;
+        transform: rotate(180deg);
         cursor: pointer;
         align-self: flex-end;
         p{
@@ -21,15 +18,14 @@
     }
     .container__snap__img{
         position: absolute;
-        top:40%;
-        left:7%;
+        top:50%;
+        transform: translateY(-50%);
         img{
-            width:40%;
+            max-width:128px;
             cursor: pointer;
         }
     }
     .container__snap__video{
-        margin:5%;
         video{
             width:100%;
             border-radius:1rem;
