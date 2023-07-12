@@ -1,0 +1,47 @@
+@import url(../skeleton/common.css);
+@font-face {
+  font-family: "TTAlientzVar";
+  src: url("../../assets/font/TT_Alientz_Var.ttf");
+}
+
+.sup {
+  /* margin-top: 5rem; */
+  
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+  .left {
+    /* padding:5rem 0.5rem 0 3rem; */
+    width: auto;
+    .subtitle {
+      letter-spacing: 1.6px;
+      font-family: "Sohne";
+      font-size: 12px;
+      color: #5733f5;
+      line-height: 1.2;
+    }
+    .text1,
+    .text2 {
+      line-height: 1.2;
+      font-family: "TTAlientzVar";
+      font-size: calc(1.525rem + 3.3vw);
+      font-weight: 300;
+      font-variation-settings: "DSPL" 500;
+      color: white;
+    }
+    .text3 {
+      font-size: calc(1.525rem + 3.3vw);
+      font-weight: 300;
+      color: white;
+      font-family: "Sohne";
+      line-height: 1.2;
+    }
+  }
+  .right {
+    width: 40%; //da settare meglio
+    
+  }
+}

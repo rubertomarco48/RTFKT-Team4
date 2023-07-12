@@ -1,0 +1,29 @@
+.buttonsDarke {
+  margin-top: 2rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: #5733f5;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.95rem 1.25rem;
+  white-space: nowrap;
+  &:hover {
+    background-color: #2b1c6a;
+    cursor: pointer;
+  }
+}
+
+.buttonsLighter {
+  margin-top: 1.5rem;
+  @extend .buttonsDarke;
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  color: white;
+  &:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+  }
+}

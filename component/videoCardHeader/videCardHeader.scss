@@ -1,16 +1,26 @@
 @import url(../skeleton/common.css);
 .prova{
+  display: flex;//forse si potrebbe aggiungere nello skeleton
+}
+.right{
   display: flex;
+  justify-content: center;
 }
 .videoCardSup {
+
   margin: 20px 50px 0 auto;//forse è da togliere
   width: 30%;
   min-width: 450px;
+
+  /* margin: 20px 50px 0 auto;//forse è da togliere 
+  width: 40%;
+  min-width: 500px;*/
+
   display: flex;
   flex-direction: column;
   background-color: #33374d8f;
   height: fit-content;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
   border-radius: 1rem;
   &:hover{
     video{
@@ -43,26 +53,44 @@
     
     .testo__overlay{
       font-weight: bold;
+
       font-size: 1rem  ;
       padding-right: 1rem;
+
+      /*font-size: calc(0.8rem + 0.3rem);*/
     }
     img{
       border-radius: 30px;
     }
   }
   .text__video {
+
     padding: 1rem;
     font-size: 1.2rem ;
+
+/*    position: relative;
+    top:-3rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;*/
+
     color: white;
     font-family: "Sohne";
     align-self: center;
   }
   .subTitle__video {
-    color: rgb(213, 213, 213);
+    position: relative;
+    top:-3rem;
+    color: rgb(174, 174, 174);
     font-family: "Sohne";
     align-self: flex-start;
-    font-size: 1rem ;
-    padding: 1rem;
+
+    /*font-size: 1rem ;
+    padding: 1rem;*/
+
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+
     
   }
 }
