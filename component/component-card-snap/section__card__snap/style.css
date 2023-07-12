@@ -1,9 +1,19 @@
+.snap__cont .snap__cont__p {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.snap__cont .snap__cont__video {
+  display: flex;
+  gap: 1rem;
+}
+
 .container__snap {
   background-color: #272932;
   display: flex;
   position: relative;
   border-radius: 1rem;
-  padding: 5%;
+  padding: 1rem;
 }
 .container__snap .container__snap__p {
   color: white;
@@ -25,7 +35,8 @@
   cursor: pointer;
 }
 .container__snap .container__snap__video video {
-  width: 100%;
+  max-width: 100%;
+  min-width: 300px;
   border-radius: 1rem;
   cursor: pointer;
 }
