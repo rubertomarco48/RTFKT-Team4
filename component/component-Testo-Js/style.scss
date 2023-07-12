@@ -1,0 +1,46 @@
+@import url(../skeleton/common.css);
+.img_new{
+    color:red;
+    width : 50px;
+    height: 50px;
+    z-index: 20;
+}
+.testoJs{
+    width: 90%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: 400;
+    font-family: "Sohne";
+    font-size: calc(1.325rem + .9vw);
+    .objJavascript{
+        text-decoration: none;
+          
+          color: white;
+          font-family: "TTAlientzVar";
+          font-variation-settings: "DSPL" 500;
+          
+          background: linear-gradient(
+              to right,
+             #000000,
+              #000000
+            ),
+            linear-gradient(
+              to right,
+              #5733f5,
+              #5733f5,
+              #5733f5
+            );
+          background-size: 100% 0.1em, 0 0.1em;
+          background-position: 100% 100%, 0 100%;
+          background-repeat: no-repeat;
+          transition: background-size 400ms;
+
+          &:hover,
+          &:focus {
+            background-size: 0 0.1em, 100% 0.1em;
+            .testoJs{
+                color:red
+            }
+          }
+    }
+}
