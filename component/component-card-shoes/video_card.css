@@ -1,18 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-}
-
 .containar {
-  width: 352px;
-  height: 505px;
+  /*  width: 352px;
+  height: 505px; */
   cursor: pointer;
   background: linear-gradient(-225deg, rgb(50, 51, 64) 0%, rgb(39, 39, 51) 100%);
   border-radius: 24px;
@@ -69,10 +57,8 @@ body {
 .secondContainar {
   display: flex;
   justify-content: end;
-  align-items: center;
   border-radius: 24px;
-  width: 300px;
-  height: 50px;
+  padding-top: 10px;
 }
 
 .play {
