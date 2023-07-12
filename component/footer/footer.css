@@ -1,0 +1,92 @@
+.footer {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #000000;
+}
+.footer .footer_description {
+  width: 50%;
+  padding-left: 3rem;
+}
+.footer .footer_description .footer_description_logo {
+  padding-top: 3rem;
+}
+.footer .footer_description .footer_description_p {
+  color: white;
+  max-width: 50ch;
+  letter-spacing: 0.4px;
+  opacity: 0.7;
+  padding-top: 3rem;
+}
+.footer .footer_terms {
+  padding-top: 3rem;
+}
+.footer .footer_terms ul {
+  height: 100%;
+  list-style: none;
+}
+.footer .footer_terms ul li {
+  padding-bottom: 1rem;
+  /*  a{
+
+              text-decoration:none;
+  color: white;
+  opacity: 0.8;
+  &:hover{
+      opacity: 1;
+      text-decoration: underline;
+
+          }
+      } */
+}
+.footer .footer_terms ul li a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #000000, #000000), linear-gradient(to right, #5733f5, #5733f5, #5733f5);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.footer .footer_terms ul li a:hover, .footer .footer_terms ul li a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+.footer .footer_social {
+  padding-top: 3rem;
+  padding-right: 3rem;
+}
+.footer .footer_social ul {
+  height: 100%;
+  list-style: none;
+}
+.footer .footer_social ul li {
+  padding-bottom: 1rem;
+}
+.footer .footer_social ul li a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to right, #000000, #000000), linear-gradient(to right, #5733f5, #5733f5, #5733f5);
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.footer .footer_social ul li a button {
+  border: none;
+  background: none;
+  color: white;
+}
+.footer .footer_social ul li a:hover, .footer .footer_social ul li a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+.footer_copyright {
+  padding-top: 3rem;
+  justify-self: flex-end;
+  width: 100%;
+}
+.footer_copyright p {
+  color: grey;
+  text-align: center;
+}/*# sourceMappingURL=footer.css.map */
