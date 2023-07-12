@@ -1,0 +1,58 @@
+
+@font-face {
+	font-family: 'TTAlientzVar';
+	src: url('../../assets/font/TT_Alientz_Var.ttf');
+	}
+    @font-face {
+        font-family: 'Sohne Breit';
+        src: url('../../assets/font/Test\ Söhne\ Breit/TestSöhneBreit-Buch.otf');
+        }
+.podio{
+    display: flex;
+    margin-top: 1rem;
+    &__structure{
+        display: flex;
+        min-width: 400px;
+        min-height: 70px;
+        background: linear-gradient(90deg,rgb(102,88,53) 0%,rgb(39,41,50) 100%);
+        border-radius: 24px;
+    }
+    &__ranking{
+        font-family:'TTAlientzVar' ;
+        margin-left: 0.4rem;
+        margin-top: 0.4rem;
+        display: flex;
+        max-width: 68px;
+        max-height:58px ;
+        background-color: #d4b25b;
+        padding: 10px 22px;
+        border-radius: 20px;
+        color: white;
+    }
+    &__first{
+        font-size: 30px;
+    }
+    &__logo{
+        margin-top: 0.7rem;
+        border-radius: 50%;
+        max-height: 46px;
+        max-width: 46px;
+        margin-left: 0.8rem;
+    }
+    &__desc{
+        margin-top: 0.9rem;
+        margin-left: 0.4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &__win{
+    color: #d4b25b;
+    font-family: "Sohne";
+    font-size: 12px;
+    }
+    &__vini{
+    font-family: "Sohne Breit";
+    color: white;
+    font-size: 16px;
+    }
+}
