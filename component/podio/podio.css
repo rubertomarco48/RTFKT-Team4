@@ -1,0 +1,104 @@
+.podio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.podio__challenge {
+  color: white;
+  font-family: "Sohne Breit";
+  font-size: 12px;
+}
+.podio__structure {
+  display: flex;
+  min-width: 400px;
+  min-height: 70px;
+  background: linear-gradient(90deg, rgb(102, 88, 53) 0%, rgb(39, 41, 50) 100%);
+  border-radius: 24px;
+}
+.podio__structure2 {
+  display: flex;
+  min-width: 400px;
+  min-height: 70px;
+  background: linear-gradient(90deg, rgb(70, 70, 93) 0%, rgb(39, 41, 50) 100%);
+  border-radius: 24px;
+}
+.podio__structure3 {
+  display: flex;
+  min-width: 400px;
+  min-height: 70px;
+  background: linear-gradient(90deg, rgb(57, 42, 29) 0%, rgb(40, 40, 52) 100%);
+  border-radius: 24px;
+}
+.podio__ranking {
+  font-family: "TTAlientzVar";
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: flex;
+  max-width: 70px;
+  max-height: 60px;
+  background-color: #d4b25b;
+  padding: 10px 22px;
+  border-radius: 20px;
+  color: white;
+}
+.podio__ranking2 {
+  font-family: "TTAlientzVar";
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: flex;
+  max-width: 70px;
+  max-height: 60px;
+  background-color: #a3a2aa;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.podio__ranking3 {
+  font-family: "TTAlientzVar";
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  display: flex;
+  max-width: 70px;
+  max-height: 60px;
+  background-color: #a27c59;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+.podio__first {
+  font-size: 30px;
+}
+.podio__second {
+  font-size: 30px;
+}
+.podio__logo {
+  margin-top: 0.7rem;
+  border-radius: 50%;
+  max-height: 46px;
+  max-width: 46px;
+  margin-left: 0.8rem;
+}
+.podio__desc {
+  margin-top: 0.9rem;
+  margin-left: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.podio__desc2-3 {
+  margin-top: 1.5rem;
+  margin-left: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.podio__win {
+  color: #d4b25b;
+  font-family: "Sohne";
+  font-size: 12px;
+}
+.podio__vini {
+  font-family: "Sohne Breit";
+  color: white;
+  font-size: 16px;
+}
+/*# sourceMappingURL=podio.css.map */

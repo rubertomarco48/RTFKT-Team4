@@ -7,9 +7,15 @@
   justify-content: center;
 }
 .videoCardSup {
-  /* margin: 20px 50px 0 auto;//forse è da togliere */
+
+  margin: 20px 50px 0 auto;//forse è da togliere
+  width: 30%;
+  min-width: 450px;
+
+  /* margin: 20px 50px 0 auto;//forse è da togliere 
   width: 40%;
-  min-width: 500px;
+  min-width: 500px;*/
+
   display: flex;
   flex-direction: column;
   background-color: #33374d8f;
@@ -38,26 +44,35 @@
     align-items: center;
     justify-content: start;
     background-color: white;
-    max-width: 45%;
+    width: fit-content;
     position: relative;
     border-radius:1rem ;
     top: -4.5rem;
     left: 0.3rem;
     min-height: 2rem;
-    min-width: 250px;
+    
     .testo__overlay{
       font-weight: bold;
-      font-size: calc(0.8rem + 0.3rem);
+
+      font-size: 1rem  ;
+      padding-right: 1rem;
+
+      /*font-size: calc(0.8rem + 0.3rem);*/
     }
     img{
       border-radius: 30px;
     }
   }
   .text__video {
-    position: relative;
+
+    padding: 1rem;
+    font-size: 1.2rem ;
+
+/*    position: relative;
     top:-3rem;
     padding-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.2rem;*/
+
     color: white;
     font-family: "Sohne";
     align-self: center;
@@ -68,9 +83,14 @@
     color: rgb(174, 174, 174);
     font-family: "Sohne";
     align-self: flex-start;
+
+    /*font-size: 1rem ;
+    padding: 1rem;*/
+
     font-size: 1rem;
     padding-left: 1rem;
     padding-top: 0.5rem;
+
     
   }
 }
@@ -81,4 +101,7 @@
   .subTitle__video{
     font-size: 0.8rem;
   }
+}
+#vsc{
+  width: 100px;
 }

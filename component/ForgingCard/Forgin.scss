@@ -1,10 +1,4 @@
 
-body{
-   
-    display: flex;
-    justify-content: center;
-
-}
 .Forging{
     margin-top: 1rem;
     display: flex;
@@ -129,76 +123,3 @@ body{
 }
 
 
-// @media (max-width: 475px) {
-//     .Forging {
-
-//         &__desc{
-//             margin-top: 2rem;
-//             flex-direction: column;
-//             min-height: 600px;
-//             max-width: 380px;
-//         }
-//         &__image{
-//             margin-bottom: 2rem;
-//             min-height: 200px;
-//             max-width: 380px;
-//             border-radius:1rem;
-//         }  
-//         &__descrizione{
-//             padding: 16px 20px;
-//         }
-//         &__title{
-           
-//             color:white;
-//             font-size: 22px;
-//         }
-//         &__paragraph{
-//             color: #A3A6B5 ;      
-//             font: 14px;
-            
-//         }
-//         &__search{
-//             width: 300px;      
-//         }
-        
-//     }  
-    
-//   }
-
-
-//   @media (max-width: 768px) {
-//     .Forging {
-//         &__desc{
-//         margin-top: 1rem;
-//             flex-direction: column;
-//             max-height: 600px;
-//             width: 400px;
-//         }
-//         &__image{
-//             margin-bottom: 2rem;
-//             min-height: 200px;
-//             width: 400px;
-//             border-radius:1rem;
-//             box-shadow: 0 2px 32px #1d1c23cc;
-//         }  
-//         &__descrizione{
-//             padding: 16px 20px;
-//             margin: 0 20px;
-//         }
-//         &__title{
-           
-//             color:white;
-//             font-size: 22px;
-//         }
-//         &__paragraph{
-//             color: #A3A6B5 ;      
-//             font: 14px;
-            
-//         }
-//         &__search{
-//             width: 300px;      
-//         }
-        
-//     }  
-    
-//   }
