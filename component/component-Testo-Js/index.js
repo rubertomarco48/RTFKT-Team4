@@ -13,8 +13,8 @@ function img() {
     img.style.zIndex = "10";
     i[0].appendChild(img);
     i[0].addEventListener("mousemove", (e) => {
-      img.style.left = e.clientX -400  + "px";
-      img.style.top = e.clientY  -100 + "px";
+      img.style.left = e.clientX - 100  + "px";
+      img.style.top = e.clientY  - 100 + "px";
      
     });
   }
