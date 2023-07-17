@@ -24,4 +24,9 @@
 }
 .testoJs .objJavascript:hover .testoJs, .testoJs .objJavascript:focus .testoJs {
   color: red;
+}
+
+.testoInterattivo {
+  width: 100%;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */

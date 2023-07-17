@@ -15,12 +15,12 @@ function img() {
     imag.src = i[0].attributes.imghover.nodeValue;
     imag.setAttribute(
       "style",
-      "width:200px ; position : absolute;border-radius:1rem;z-index=10"
+      "width:200px ; position:fixed;border-radius:1rem;z-index=10"
     );
     i[0].appendChild(imag);
     i[0].addEventListener("mousemove", (e) => {
-      imag.style.left = e.clientX - 100 + "px";
-      imag.style.top = e.clientY - 100 + "px";
+      imag.style.left = e.clientX -100 + "px";
+      imag.style.top = e.clientY -100 + "px";
     });
   }
 }

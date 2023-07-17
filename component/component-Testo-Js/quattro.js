@@ -13,7 +13,7 @@ function img() {
     let imag = document.createElement("img")
     imag.setAttribute("id","img_new");
     imag.src = i[3].attributes.imghover.nodeValue;
-    imag.setAttribute("style","width:200px ; position : absolute;border-radius:1rem;z-index=10")
+    imag.setAttribute("style","width:200px ; position : fixed;border-radius:1rem;z-index=10")
     i[3].appendChild(imag);
     i[3].addEventListener("mousemove", (e) => {
       imag.style.left = e.clientX - 100 + "px";
