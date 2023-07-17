@@ -8,14 +8,14 @@ function img() {
       element.style.opacity = 0.8;
       element.style.zIndex = 0;
     });
-    i[1].style.opacity = 1; 
-    i[1].style.zIndex = 20;
+    i[5].style.opacity = 1; 
+    i[5].style.zIndex = 20;
     let imag = document.createElement("img")
     imag.setAttribute("id","img_new");
-    imag.src = i[1].attributes.imghover.nodeValue;
+    imag.src = i[5].attributes.imghover.nodeValue;
     imag.setAttribute("style","width:200px ; position : absolute;border-radius:1rem;z-index=10")
-    i[1].appendChild(imag);
-    i[1].addEventListener("mousemove", (e) => {
+    i[5].appendChild(imag);
+    i[5].addEventListener("mousemove", (e) => {
       imag.style.left = e.clientX - 100 + "px";
       imag.style.top = e.clientY - 50 + "px";
     });
@@ -24,8 +24,8 @@ function img() {
 
   
 }
-i[1].addEventListener("mouseenter", img);
-i[1].addEventListener("mouseout", () => {
+i[5].addEventListener("mouseenter", img);
+i[5].addEventListener("mouseout", () => {
   document.querySelector("#img_new").remove();
   i.forEach((element) => {
     element.style.opacity = 1;

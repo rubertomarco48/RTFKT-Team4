@@ -1,14 +1,9 @@
 @import url(../skeleton/common.css);
-.img_new{
-    color:red;
-    width : 50px;
-    height: 50px;
-    z-index: 10;
-}
+
 .testoJs{
    /*  margin-top: 6rem; *//* da eliminare */
-   position: relative;
-    width: 90%;
+   
+    width: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 0.555);
     font-weight: 400;
@@ -16,8 +11,6 @@
     font-size: calc(1.325rem + .9vw);
     .objJavascript{
         text-decoration: none;
-        position: relative;
-          z-index: 20;
           color: white;
           font-family: "TTAlientzVar";
           font-variation-settings: "DSPL" 500;

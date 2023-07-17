@@ -1,1 +1,1 @@
-export const i = document.getElementsByClassName("objJavascript");
+export const i = [...document.getElementsByClassName("objJavascript")];
