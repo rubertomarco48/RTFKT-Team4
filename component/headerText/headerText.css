@@ -41,4 +41,28 @@
 }
 .sup .right {
   width: 40%;
+}
+
+.videofullscreen {
+  overflow-x: hidden;
+  position: absolute;
+  overflow: hidden;
+  width: 99.5vw !important;
+  height: 99.5vw !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -100;
+}
+
+.overlay {
+  overflow-x: hidden;
+  position: absolute;
+  overflow: hidden;
+  width: 99.5vw !important;
+  height: 99.5vw !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -50;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
 }/*# sourceMappingURL=headerText.css.map */

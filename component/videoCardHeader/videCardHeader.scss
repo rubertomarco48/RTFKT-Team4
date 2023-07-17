@@ -10,7 +10,7 @@
 
   margin: 20px 50px 0 auto;//forse è da togliere
   width: 30%;
-  min-width: 450px;
+  min-width: 300px;
 
   /* margin: 20px 50px 0 auto;//forse è da togliere 
   width: 40%;
@@ -64,10 +64,10 @@
     }
   }
   .text__video {
-
-    padding: 1rem;
-    font-size: 1.2rem ;
-
+    position: absolute;
+    padding: 0 1rem 0 1rem ; 
+    font-size: 1rem -3.3vw ;
+    max-width: 300px;
 /*    position: relative;
     top:-3rem;
     padding-left: 1rem;

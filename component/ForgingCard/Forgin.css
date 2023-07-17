@@ -73,9 +73,8 @@
   background: whitesmoke;
   opacity: 1;
   cursor: pointer;
-
 }
-/*@media (max-width: 470px) {
+@media (max-width: 470px) {
   .Forging .Forging__desc {
     margin-top: 2rem;
     flex-direction: column;
@@ -105,6 +104,5 @@
   }
   .Forging .Forging__button {
     min-width: 300px;
-  }*/
-
+  }
 }/*# sourceMappingURL=Forgin.css.map */
