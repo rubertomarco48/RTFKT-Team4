@@ -1,4 +1,4 @@
-const i = document.getElementsByClassName("objJavascript");
+import {i}  from "./i.js";
 const p = document.getElementsByClassName("testoJs");
 /* i.addEventListener("onmouseover",img); */
 function img() {
@@ -13,10 +13,9 @@ function img() {
     img.style.zIndex = "10";
     i[0].appendChild(img);
     i[0].addEventListener("mousemove", (e) => {
-      img.style.left = e.clientX -400  + "px";
-      img.style.top = e.clientY  -100 + "px";
-     
-    });
+      img.style.left = e.clientX -300  + "px";
+      img.style.top = e.clientY -100  + "px";
+     });
   }
 }
 i[0].addEventListener("mouseenter", img);
