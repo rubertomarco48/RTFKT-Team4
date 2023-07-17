@@ -4,8 +4,9 @@
   font-size: 1.2rem;
 }
 .snap__cont .snap__cont__video {
-  display: flex;
+  display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .container__snap {
@@ -35,10 +36,9 @@
   cursor: pointer;
 }
 .container__snap .container__snap__video video {
-  max-width: 100%;
-  min-width: 300px;
   border-radius: 1rem;
   cursor: pointer;
+  max-width: 100%;
 }
 
 .container__snap:hover {
