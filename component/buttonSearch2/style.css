@@ -1,0 +1,17 @@
+.searchPage {
+  display: flex;
+  border-radius: 1rem;
+}
+.searchPage #searchInput {
+  width: 100%;
+  display: none;
+  border-radius: 1rem;
+  outline: none;
+  background-color: #272932;
+  border: none;
+}
+.searchPage #searchButton {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */
