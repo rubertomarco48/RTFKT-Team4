@@ -1,0 +1,27 @@
+.buttonSecondPage {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 1.5rem;
+  border: 1px solid #ced4da;
+  color: white;
+  padding: 7px 15px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: bold;
+  max-height: 40px;
+  gap: 8px;
+  line-height: 1rem;
+}
+.buttonSecondPage > img {
+  display: block;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.buttonSecondPage:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */

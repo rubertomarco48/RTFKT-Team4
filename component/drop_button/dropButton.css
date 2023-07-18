@@ -1,0 +1,17 @@
+.buttonDrop {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid gray;
+  text-transform: uppercase;
+  max-width: 555px;
+  min-width: 300px;
+  color: white;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 10px;
+  width: 100%;
+}
+.buttonDrop:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=dropButton.css.map */

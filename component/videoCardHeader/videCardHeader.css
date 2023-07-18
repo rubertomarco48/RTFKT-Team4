@@ -97,4 +97,39 @@
 }
 #vsc {
   width: 100px;
+}
+
+.titleForging {
+  width: 100%;
+  justify-self: flex-start;
+  color: white;
+}
+.titleForging h2 {
+  padding-left: 3rem;
+  font-family: "Sohne";
+  font-size: 14px;
+}
+
+.titleGrid {
+  padding-top: 2rem;
+  width: 100%;
+  justify-self: flex-start;
+  color: white;
+}
+.titleGrid h2 {
+  padding-left: 3rem;
+  font-family: "Sohne";
+  font-size: 14px;
+}
+
+.titleWeAre {
+  padding-top: 2rem;
+  width: 100%;
+  justify-self: flex-start;
+  color: white;
+}
+.titleWeAre h2 {
+  padding-left: 3rem;
+  font-family: "Sohne";
+  font-size: 14px;
 }/*# sourceMappingURL=videCardHeader.css.map */
