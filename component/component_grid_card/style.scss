@@ -2,8 +2,8 @@
   
   .grid_card_centered {
     width: 90%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap: 1rem;
     justify-content: flex-start;
     margin: 1rem auto 1rem auto;
