@@ -1,0 +1,61 @@
+.aside {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 340px;
+}
+.sectionAside {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.slash {
+  width: 95%;
+  height: 1px;
+  background-color: #6c757d;
+}
+.textSectionAside {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.titleAside {
+  display: flex;
+  gap: 4px;
+}
+.sectionAside .textSectionAside span:last-child {
+  color: #6c757d;
+  font-weight: 500;
+}
+.sectionSpace > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sectionSpace > button:hover {
+  cursor: pointer;
+}
+.sectionButtonCategories,
+.sectionButtonCreators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.footer {
+  text-align: left;
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 600;
+}
+.footer span > a {
+  text-decoration: none;
+  color: #e9ecef;
+  font-weight: 600;
+}
