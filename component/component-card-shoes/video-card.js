@@ -1,3 +1,7 @@
+function playVideo(video) {
+  video.play();
+}
+
 
 let clip = document.querySelector(".videox");
 let playIcon = document.getElementById("play");
@@ -10,3 +14,4 @@ clip.addEventListener("mouseout", function (e) {
   clip.pause();
   playIcon.style.display = "flex";
 });
+
