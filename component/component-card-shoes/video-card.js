@@ -1,5 +1,5 @@
 
-let clip = document.querySelector(".video");
+let clip = document.querySelector(".videox");
 let playIcon = document.getElementById("play");
 console.log(playIcon);
 clip.addEventListener("mouseover", function (e) {
