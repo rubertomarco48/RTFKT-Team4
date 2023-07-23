@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="./component/component-Testo-Js/style.css" />
   </head>
   <body>
+    <div class="mobileMenu" id="mobileMenu">
+
+    </div>
     <video muted autoplay loop class="videofullscreen">
       <source
         src="./assets/video/rimowaForgeVideo.mp4"
@@ -32,15 +35,18 @@
       />
     </video>
     <div class="overlay"></div>
-    <header>
-      <nav class="top__nav">
-        <div class="logo__image">
-          <a href="./index.html">
+    <header id="header">
+      <nav class="top__nav" id="nav">
+        <div class="logo__image" id="logo_image">
+          <a href="./index.html" class="hidden" id="hidden">
+            <img src="./assets/rtfkt_swoosh.svg" alt="">
+          </a>
+          <a href="./index.html" id="visible" class="visible">
             <img src="/assets/img/rtfktlogo.svg" alt="" />
           </a>
         </div>
-        <div class="right__nav">
-          <div class="transparent__button">
+        <div class="right__nav" id="visibleButton">
+          <div class="transparent__button" id="hiddenButton">
             <div class="drops__cont">
               <a href="./secondpage.html">DROPS ARCHIVE</a>
             </div>
@@ -52,9 +58,13 @@
             <div class="wtf__cont"><a href="">WTF</a></div>
           </div>
           <div class="rounded__button">
-            <button>SIGN IN</button>
+            <button >SIGN IN</button>
           </div>
         </div>
+        <div id="hiddenMenu" class="hiddenMenu">
+          <img src="./assets/clipart773806.png" alt="">
+        </div>
+        <script src="./component/navbar/navbar.js"></script>
       </nav>
     </header>
     <div class="sup" id="sup">
@@ -595,8 +605,8 @@
           </div>
       </div>
   </div>
-    <div class="footer_element">
-      <div class="footer_description">
+    <div class="footer_element" id="footerRoot">
+      <div class="footer_description" id="footer1">
         <div class="footer_description_logo">
           <a href="../../index.html">
             <img src="/assets//img/rtfktlogo.svg" alt="" />
@@ -609,7 +619,26 @@
           and digital artifacts.
         </p>
       </div>
-      <div class="footer_terms">
+      <div class="footerHide" id="footerHide">
+        <ul>
+          <li>
+            <a href=""><button>Instagram</button></a>
+          </li>
+          <li>
+            <a href=""><button>Discord</button></a>
+          </li>
+          <li>
+            <a href=""><button>Twitter</button></a>
+          </li>
+          <li>
+            <a href=""><button>Youtube</button></a>
+          </li>
+          <li>
+            <a href=""><button>TikTok</button></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_terms" id="footer2">
         <ul>
           <li><a href="">FAQ</a></li>
           <li><a href="">Legal Overview</a></li>
@@ -618,7 +647,7 @@
           <li><a href="">Press Info</a></li>
         </ul>
       </div>
-      <div class="footer_social">
+      <div class="footer_social" id="footer3">
         <ul>
           <li>
             <a href=""><button>Instagram</button></a>

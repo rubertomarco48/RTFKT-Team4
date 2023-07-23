@@ -19,14 +19,38 @@
   opacity: 0.7;
   padding-top: 3rem;
 }
-.footer_element .footer_terms {
+.footer_element .footerHide {
+  display: none;
+  width: 90%;
+  margin-left: 4%;
+}
+.footer_element .footerHide ul {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_element .footerHide button {
+  width: 100%;
+  background: none;
+  border-radius: 1rem;
+  height: 2rem;
+  border: 1px solid white;
+  color: white;
+}
+.footer_element .footerHide button:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.footer_terms {
   padding-top: 3rem;
 }
-.footer_element .footer_terms ul {
+.footer_terms ul {
   height: 100%;
   list-style: none;
 }
-.footer_element .footer_terms ul li {
+.footer_terms ul li {
   padding-bottom: 1rem;
   /*  a{
 
@@ -40,7 +64,7 @@
           }
       } */
 }
-.footer_element .footer_terms ul li a {
+.footer_terms ul li a {
   text-decoration: none;
   color: white;
   background: linear-gradient(to right, #000000, #000000), linear-gradient(to right, #5733f5, #5733f5, #5733f5);
@@ -49,21 +73,22 @@
   background-repeat: no-repeat;
   transition: background-size 400ms;
 }
-.footer_element .footer_terms ul li a:hover, .footer_element .footer_terms ul li a:focus {
+.footer_terms ul li a:hover, .footer_terms ul li a:focus {
   background-size: 0 0.1em, 100% 0.1em;
 }
-.footer_element .footer_social {
+
+.footer_social {
   padding-top: 3rem;
   padding-right: 3rem;
 }
-.footer_element .footer_social ul {
+.footer_social ul {
   height: 100%;
   list-style: none;
 }
-.footer_element .footer_social ul li {
+.footer_social ul li {
   padding-bottom: 1rem;
 }
-.footer_element .footer_social ul li a {
+.footer_social ul li a {
   text-decoration: none;
   color: white;
   background: linear-gradient(to right, #000000, #000000), linear-gradient(to right, #5733f5, #5733f5, #5733f5);
@@ -72,12 +97,12 @@
   background-repeat: no-repeat;
   transition: background-size 400ms;
 }
-.footer_element .footer_social ul li a button {
+.footer_social ul li a button {
   border: none;
   background: none;
   color: white;
 }
-.footer_element .footer_social ul li a:hover, .footer_element .footer_social ul li a:focus {
+.footer_social ul li a:hover, .footer_social ul li a:focus {
   background-size: 0 0.1em, 100% 0.1em;
 }
 
@@ -91,4 +116,25 @@
   padding-bottom: 4rem;
   color: grey;
   text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  #footerRoot {
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer1 {
+    width: 90%;
+    padding: 0;
+  }
+  #footerHide {
+    display: block;
+  }
+  #footer2 {
+    align-self: flex-start;
+    padding-left: 20px;
+  }
+  #footer3 {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */
