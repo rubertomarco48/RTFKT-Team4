@@ -47,7 +47,7 @@
   overflow-x: hidden;
   position: absolute;
   overflow: hidden;
-  width: 99.5vw !important;
+  width: 100vw !important;
   height: 99.5vw !important;
   -o-object-fit: cover;
      object-fit: cover;
@@ -58,7 +58,7 @@
   overflow-x: hidden;
   position: absolute;
   overflow: hidden;
-  width: 99.5vw !important;
+  width: 100vw !important;
   height: 99.5vw !important;
   -o-object-fit: cover;
      object-fit: cover;

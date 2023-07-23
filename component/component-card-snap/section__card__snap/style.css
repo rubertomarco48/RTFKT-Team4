@@ -1,3 +1,6 @@
+.snap__cont {
+  margin: 3rem 5rem;
+}
 .snap__cont .snap__cont__p {
   color: red;
   font-weight: bold;

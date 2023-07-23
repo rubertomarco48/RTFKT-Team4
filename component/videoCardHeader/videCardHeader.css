@@ -12,7 +12,7 @@
 .videoCardSup {
   margin: 20px 50px 0 auto;
   width: 30%;
-  min-width: 300px;
+  min-width: 500px;
   /* margin: 20px 50px 0 auto;//forse è da togliere 
   width: 40%;
   min-width: 500px;*/
@@ -88,6 +88,16 @@
 }
 
 @media (max-width: 1000px) {
+  #videoCardSup {
+    min-width: 300px;
+    margin: 3rem auto;
+  }
+  #sup {
+    flex-direction: column;
+  }
+  #left {
+    margin-top: 50vh;
+  }
   .text__video {
     font-size: 1rem;
   }
