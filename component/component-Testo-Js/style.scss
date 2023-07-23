@@ -1,47 +1,54 @@
 @import url(../skeleton/common.css);
 
-.testoJs{
-   /*  margin-top: 6rem; *//* da eliminare */
-    
-    width: 100%;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.555);
-    font-weight: 400;
-    font-family: "Sohne";
-    font-size: calc(1.325rem + .9vw);
-    .objJavascript{
-        text-decoration: none;
-          color: white;
-          font-family: "TTAlientzVar";
-          font-variation-settings: "DSPL" 500;
-          
-          background: linear-gradient(
-              to right,
-             #000000,
-              #000000
-            ),
-            linear-gradient(
-              to right,
-              #5733f5,
-              #5733f5,
-              #5733f5
-            );
-          background-size: 100% 0.1em, 0 0.1em;
-          background-position: 100% 100%, 0 100%;
-          background-repeat: no-repeat;
-          transition: background-size 400ms;
-
-          &:hover,
-          &:focus {
-            background-size: 0 0.1em, 100% 0.1em;
-            .testoJs{
-                color:red
-            }
-          }
-    }
-}
-.testoInterattivo{
+.testoJs {
+  /*  margin-top: 6rem; */ /* da eliminare */
   width: 100%;
-  padding:2rem;
-  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.555);
+  font-weight: 400;
+  font-family: "Sohne";
+  font-size: calc(1.325rem + 0.9vw);
+  .objJavascript {
+    max-width: 11ch;
+    position: relative;
+
+    text-decoration: none;
+    color: white;
+    font-family: "TTAlientzVar";
+    font-variation-settings: "DSPL" 500;
+
+    background: linear-gradient(to right, #000000, #000000),
+      linear-gradient(to right, #5733f5, #5733f5, #5733f5);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+
+    &:hover,
+    &:focus {
+      background-size: 0 0.1em, 100% 0.1em;
+      .testoJs {
+        color: red;
+      }
+    }
+  }
+}
+.testoInterattivo {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+}
+#img_new {
+  z-index: 100;
+  position: absolute;
+  border-radius: 1rem;
+  width: 50px;
+  height: 200px;
+  margin-left: 75px;
+  position: fixed;
+  opacity: 1;
+  /* blur(epx) brightness(1); */
+  transition: opacity 5eems ease-in-out es, filter 0.33s ease-in-out Os;
+  pointer-events: none;
+  z-index: 5;
 }

@@ -1,0 +1,39 @@
+.searchPage {
+  display: flex;
+  border-radius: 1rem;
+  position: relative;
+}
+.searchPage #searchInput {
+  width: 100%;
+  display: none;
+  border-radius: 2rem;
+  outline: none;
+  background-color: #272932;
+  border: none;
+  height: 41px;
+  color: white;
+}
+.searchPage #searchInput::-moz-placeholder {
+  color: white;
+}
+.searchPage #searchInput::placeholder {
+  color: white;
+}
+.searchPage #searchButton {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 2px;
+  top: 3px;
+  border: 1px solid white;
+  background-color: #272932;
+}
+
+#searchButton:hover {
+  background-color: #5733F5;
+}
+
+svg {
+  fill: white;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.switchPage2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.switchPage2 #switch3 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.switchPage2 #switch2 {
+  border-radius: 5%;
+  width: 25px;
+  height: 25px;
+}/*# sourceMappingURL=style.css.map */

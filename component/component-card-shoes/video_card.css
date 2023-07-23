@@ -1,6 +1,9 @@
 .containar {
-  width: 352px;
-  height: 505px;
+
+
+  /*  width: 352px;
+  height: 505px; */
+
   cursor: pointer;
   background: linear-gradient(
     -225deg,
@@ -47,12 +50,12 @@
   display: flex;
 }
 
-.video {
+.videox {
   width: 100%;
   border-radius: 1rem;
 }
 
-.product .video:hover {
+.product .videox:hover {
   cursor: pointer;
   box-shadow: 0px 0px 40px 1px #3f4b9d;
   -o-object-fit: cover;

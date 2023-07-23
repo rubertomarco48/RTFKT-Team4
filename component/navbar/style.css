@@ -22,6 +22,15 @@ header {
   height: 80px;
   padding-left: 24px;
 }
+.top__nav .logo__image .hidden {
+  display: none;
+}
+.top__nav .logo__image .hidden img {
+  width: 100px;
+  height: 50px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
 .top__nav .logo__image a img {
   width: 151px;
   height: 24px;
@@ -122,4 +131,59 @@ header {
 }
 .top__nav .right__nav .rounded__button button:hover {
   background-color: #3f16f4;
+}
+
+.hiddenMenu {
+  padding-top: 25px;
+  padding-right: 25px;
+  display: none;
+}
+.hiddenMenu img {
+  width: 30px;
+  height: 30px;
+}
+
+/* 
+width: 151px;
+                height: 24px; */
+@media screen and (max-width: 950px) {
+  #nav {
+    justify-content: unset;
+    background-color: #1f2028;
+  }
+  #hidden {
+    display: block;
+    justify-self: flex-start;
+  }
+  #visible {
+    display: none;
+  }
+  #hiddenButton {
+    display: none;
+    justify-self: flex-end;
+  }
+  #header {
+    width: 100%;
+  }
+  #logo_image {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+  }
+  #hiddenMenu {
+    display: block;
+    margin-left: auto;
+  }
+  #visibleButton {
+    position: absolute;
+    right: 40px;
+  }
+}
+.mobileMenu {
+  display: none;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */

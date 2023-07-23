@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RTFKT</title>
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./component/bottom-section/style.css">
     <link rel="stylesheet" href="/component/skeleton/common.css" />
     <link rel="stylesheet" href="/component/navbar/style.css" />
     <link rel="stylesheet" href="/component/headerText/headerText.css" />
     <link rel="stylesheet" href="/component/buttons/style.css" />
     <link rel="stylesheet" href="./component/footer/footer.css" />
+
+    <link rel="stylesheet" href="./component/component-card-snap/section__card__snap/style.css" />
+
     <link
       rel="stylesheet"
       href="/component/videoCardHeader/videCardHeader.css"
@@ -18,29 +22,36 @@
       rel="stylesheet"
       href="./component/component-card-shoes/video_card.css"
     />
-    <script src="./component/component-card-shoes/video-card.js"></script>
     <link rel="stylesheet" href="./component/component_grid_card/style.css" />
     <link rel="stylesheet" href="/component/ForgingCard/Forgin.css" />
     <link rel="stylesheet" href="./component/component-Testo-Js/style.css" />
   </head>
   <body>
+    <div class="mobileMenu" id="mobileMenu">
+
+    </div>
     <video muted autoplay loop class="videofullscreen">
       <source
-        src="https://cdn.rtfkt.com/assets/forging/rimowa/rimowaForgeVideo.mp4"
+        src="./assets/video/rimowaForgeVideo.mp4"
         type="video/mp4"
       />
     </video>
     <div class="overlay"></div>
-    <header>
-      <nav class="top__nav">
-        <div class="logo__image">
-          <a href="#">
+    <header id="header">
+      <nav class="top__nav" id="nav">
+        <div class="logo__image" id="logo_image">
+          <a href="./index.html" class="hidden" id="hidden">
+            <img src="./assets/rtfkt_swoosh.svg" alt="">
+          </a>
+          <a href="./index.html" id="visible" class="visible">
             <img src="/assets/img/rtfktlogo.svg" alt="" />
           </a>
         </div>
-        <div class="right__nav">
-          <div class="transparent__button">
-            <div class="drops__cont"><a href="">DROPS ARCHIVE</a></div>
+        <div class="right__nav" id="visibleButton">
+          <div class="transparent__button" id="hiddenButton">
+            <div class="drops__cont">
+              <a href="./secondpage.html">DROPS ARCHIVE</a>
+            </div>
             <div class="creat__cont"><a href="">CREATORS</a></div>
             <div class="coll__cont">
               <a href="">COLLECTIONS</a>
@@ -49,13 +60,17 @@
             <div class="wtf__cont"><a href="">WTF</a></div>
           </div>
           <div class="rounded__button">
-            <button>SIGN IN</button>
+            <button >SIGN IN</button>
           </div>
         </div>
+        <div id="hiddenMenu" class="hiddenMenu">
+          <img src="./assets/clipart773806.png" alt="">
+        </div>
+        <script src="./component/navbar/navbar.js"></script>
       </nav>
     </header>
-    <div class="sup">
-      <div class="left">
+    <div class="sup" id="sup">
+      <div class="left" id="left">
         <div class="subtitle">RTFKT x RIMOWA</div>
         <div class="text1">RIMOWA</div>
         <div class="text2">Forging</div>
@@ -68,7 +83,7 @@
         <div class="date"><!-- inserisci qui la data --></div>
       </div>
       <div class="right">
-        <div class="videoCardSup">
+        <div class="videoCardSup" id="videoCardSup">
           <video muted loop autoplay aria-controls="none">
             <source
               type="video/mp4"
@@ -118,8 +133,59 @@
     <div class="titleGrid">
       <h2>FEATURED DROPS</h2>
     </div>
-    <div class="grid_card">
-      <div class="grid_card_centered">
+    <div class="grid_card" id="grid_card">
+      <div class="grid_card_centered" id="grid_card_centered">
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="./assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+         /*   <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/video-card-shoes.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
         <div class="containar">
           <div class="containar-title">
             <div class="title">
@@ -132,8 +198,162 @@
             </div>
           </div>
           <div class="product">
+
             <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
+          /*  <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/alien.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="../../assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+          /*  <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/mnlth2.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="../../assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+          /*  <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/clip.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="../../assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+      /*      <video
               loop
               muted
               aria-controls="none"
@@ -141,6 +361,111 @@
               onmouseover="playVideo(this)"
               onmouseleave="stopVideo(this)"
             >
+*/
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/Final_MNLTH.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="../../assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+         /*   <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
+              <source
+                type="video/mp4"
+                src="./assets/video/HumanCap.mp4"
+              />
+            </video>
+            <div class="secondContainar">
+              <div class="play" id="play">
+                <img
+                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                  alt="play icon"
+                  height="11"
+                  width="11"
+                  data-v-c0b4d82e=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="second-title">
+              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+            </div>
+            <div class="containarSubtitle">
+              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+            </div>
+          </div>
+        </div>
+        <div class="containar">
+          <div class="containar-title">
+            <div class="title">
+              <img
+                src="../../assets/image/image-logo-card.png"
+                alt="logo"
+                class="logo"
+              />
+              <span class="text">@RTFKT</span>
+            </div>
+          </div>
+          <div class="product">
+
+            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
+         /*   <video
+              loop
+              muted
+              aria-controls="none"
+              class="video"
+              onmouseover="playVideo(this)"
+              onmouseleave="stopVideo(this)"
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
               <source
                 type="video/mp4"
                 src="../../assets/video/video-card-shoes.mp4"
@@ -179,6 +504,7 @@
             </div>
           </div>
           <div class="product">
+/*
             <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
             <video
               loop
@@ -187,10 +513,13 @@
               class="video"
               onmouseover="playVideo(this)"
               onmouseleave="stopVideo(this)"
-            >
+            > */
+
+            <video loop muted aria-controls="none" class="videox">
+
               <source
                 type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
+                src="./assets/video/Rimowa_Luggage_Green.mp4"
               />
             </video>
             <div class="secondContainar">
@@ -214,290 +543,99 @@
             </div>
           </div>
         </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
-        <div class="containar">
-          <div class="containar-title">
-            <div class="title">
-              <img
-                src="../../assets/image/image-logo-card.png"
-                alt="logo"
-                class="logo"
-              />
-              <span class="text">@RTFKT</span>
-            </div>
-          </div>
-          <div class="product">
-            <!--  <img src="Shoes.png" alt="Shoes" class="shoes" />  -->
-            <video
-              loop
-              muted
-              aria-controls="none"
-              class="video"
-              onmouseover="playVideo(this)"
-              onmouseleave="stopVideo(this)"
-            >
-              <source
-                type="video/mp4"
-                src="../../assets/video/video-card-shoes.mp4"
-              />
-            </video>
-            <div class="secondContainar">
-              <div class="play" id="play">
-                <img
-                  src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                  alt="play icon"
-                  height="11"
-                  width="11"
-                  data-v-c0b4d82e=""
-                />
-              </div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="second-title">
-              <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-            </div>
-            <div class="containarSubtitle">
-              <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-            </div>
-          </div>
-        </div>
+        <script src="./component/component-card-shoes/video-card copy.js"></script>
       </div>
     </div>
+    <div class="titleWeAre">
+      <h2>TRY THEM ON</h2>
+    </div>
+    <section class="snap__cont" >
+      <section class="snap__cont__video" id="snap" >
+        <div class="container__snap">
+          <div class="container__snap__p">
+            <p>Fewo x Rtfkt Epic</p>
+          </div>
+          <div class="container__snap__img">
+            <img
+              src="https://app.snapchat.com/web/deeplink/snapcode?data=2092bdd249074344b8b5c9181474e223&amp;version=1&amp;type=svg"
+              alt="qr"
+              class="position-absolute top-50 start-0 translate-middle snapchat-img"
+              data-v-62372636=""
+            />
+          </div>
+          <div class="container__snap__video">
+            <video
+              autoplay="true"
+              loop="true"
+              class="content-media-video"
+              data-v-62372636=""
+            >
+              <source
+                src="https://community-lens.storage.googleapis.com/preview-media/final/e9f8ccc3-9bff-4952-b7f3-86afcfc0c139.mp4"
+                type="video/mp4"
+                data-v-62372636=""
+              />
+            </video>
+          </div>
+        </div>
+        <div class="container__snap">
+          <div class="container__snap__p">
+            <p>Fewo x Rtfkt Epic</p>
+          </div>
+          <div class="container__snap__img">
+            <img
+              src="https://app.snapchat.com/web/deeplink/snapcode?data=3b486eb7c9b54b6487ec7c09e43eb1d0&amp;version=1&amp;type=svg"
+              alt="qr"
+              class="position-absolute top-50 start-0 translate-middle snapchat-img"
+              data-v-62372636=""
+            />
+          </div>
+          <div class="container__snap__video">
+            <video
+              autoplay="true"
+              loop="true"
+              muted
+              class="content-media-video"
+              data-v-62372636=""
+            >
+              <source
+                src="https://community-lens.storage.googleapis.com/preview-media/final/bc0b59cb-0296-419a-acb7-7c8ec89aac0e.mp4"
+                type="video/mp4"
+                data-v-62372636=""
+              />
+            </video>
+          </div>
+        </div>
+        <div class="container__snap">
+          <div class="container__snap__p">
+            <p>Fewo x Rtfkt Epic</p>
+          </div>
+          <div class="container__snap__img">
+            <img
+              src="https://app.snapchat.com/web/deeplink/snapcode?data=c298bf9ea7584ada8280b96705c8c513&amp;version=1&amp;type=svg"
+              alt="qr"
+              class="position-absolute top-50 start-0 translate-middle snapchat-img"
+              data-v-62372636=""
+            />
+          </div>
+          <div class="container__snap__video">
+            <video
+              autoplay="true"
+              loop="true"
+              muted
+              class="content-media-video"
+              data-v-62372636=""
+            >
+              <source
+                src="https://community-lens.storage.googleapis.com/preview-media/final/765af446-87e4-4da1-99f2-29d07f48c5f9.mp4"
+                type="video/mp4"
+                data-v-62372636=""
+              />
+            </video>
+          </div>
+        </div>
+      </section>
+    </section>
     <div class="titleWeAre">
       <h2>WHO WE ARE</h2>
     </div>
@@ -509,73 +647,64 @@
         We are a
         <i class="objJavascript" imghover="./assets/creator.gif">creator</i>
         led organisation.
-        <i class="objJavascript" imghover=".\assets\RTFKT.png">RTFKT</i> uses
+        <i class="objJavascript" imghover="./assets/RTFKT.png">RTFKT</i> uses
         the latest in
-        <i class="objJavascript" imghover=".\assets\game-engine.png"
+        <i class="objJavascript" imghover="./assets/game-engine.png"
           >game engines,</i
         >
-        <i class="objJavascript" imghover=".\assets\clonex-nft.png">NFT,</i>
-        <i class="objJavascript" imghover=".\assets\blockchain.png"
+        <i class="objJavascript" imghover="./assets/clonex-nft.png">NFT,</i>
+        <i class="objJavascript" imghover="./assets/blockchain.png"
           >blockchain</i
         >
         authentication and
-        <i class="objJavascript" imghover=".\assets\augmented-reality.png"
+        <i class="objJavascript" imghover="./assets/augmented-reality.png"
           >augmented reality,</i
         >
         combined with
-        <i class="objJavascript" imghover=".\assets\manufacturing.png"
+        <i class="objJavascript" imghover="./assets/manufacturing.png"
           >manufacturing</i
         >
         expertise to create one of a kind
-        <i class="objJavascript" imghover=".\assets\sneakers.png">sneakers</i>
+        <i class="objJavascript" imghover="./assets/sneakers.png">sneakers</i>
         and digital
-        <i class="objJavascript" imghover=".\assets\digital-artefacts.png"
+        <i class="objJavascript" imghover="./assets/digital-artefacts.png"
           >artifact.</i
         >
-        <script
-          src="./component/component-Testo-Js/i.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/uno.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/due.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/tre.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/quattro.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/cinque.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/sei.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/sette.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/otto.js"
-          type="module"
-        ></script>
-        <script
-          src="./component/component-Testo-Js/nove.js"
-          type="module"
-        ></script>
+        <script src="./component/component-Testo-Js/due.js"></script>
       </p>
     </div>
-    <div class="footer_element">
-      <div class="footer_description">
+    <div class="bottom-section" id="bottom-section">
+      <div class = "img">
+          <img src="../../assets/image/sectionOne.png" alt="left-img" class = "img1">
+      </div>
+      <div class="brands">
+          <div class ="text">
+              <p>AWESOME PEOPLE WE WORKED WITH</p>
+          </div>
+          <div class="all-brands">
+              <div class="equaly-class">
+                  <img src="../../assets/image/epic.png" alt="epic" class="same-image2">
+              </div>
+              <div class="equaly-class">
+                  <img src="../../assets/image/staple.png" alt="staple" class="same-image">
+              </div>
+              <div class="equaly-class">
+                  <img src="../../assets/image/fewocious.png" alt="fewocious" class="same-image">
+              </div>
+              <div class="equaly-class">
+                  <img src="../../assets/image/atari.png" alt="atari" class="image1">
+              </div>
+              <div class="equaly-class">
+                  <img src="../../assets/image/kiki.png" alt="kiki" class="image1">
+              </div>
+              <div class="equaly-class">
+                  <img src="../../assets/image/nike.svg" alt="nike" class="same-image">
+              </div>
+          </div>
+      </div>
+  </div>
+    <div class="footer_element" id="footerRoot">
+      <div class="footer_description" id="footer1">
         <div class="footer_description_logo">
           <a href="../../index.html">
             <img src="/assets//img/rtfktlogo.svg" alt="" />
@@ -588,7 +717,26 @@
           and digital artifacts.
         </p>
       </div>
-      <div class="footer_terms">
+      <div class="footerHide" id="footerHide">
+        <ul>
+          <li>
+            <a href=""><button>Instagram</button></a>
+          </li>
+          <li>
+            <a href=""><button>Discord</button></a>
+          </li>
+          <li>
+            <a href=""><button>Twitter</button></a>
+          </li>
+          <li>
+            <a href=""><button>Youtube</button></a>
+          </li>
+          <li>
+            <a href=""><button>TikTok</button></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_terms" id="footer2">
         <ul>
           <li><a href="">FAQ</a></li>
           <li><a href="">Legal Overview</a></li>
@@ -597,7 +745,7 @@
           <li><a href="">Press Info</a></li>
         </ul>
       </div>
-      <div class="footer_social">
+      <div class="footer_social" id="footer3">
         <ul>
           <li>
             <a href=""><button>Instagram</button></a>
