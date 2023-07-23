@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="/component/filter-button-hider/index.css" />
     <link rel="stylesheet" href="/component/filter-button/index.css" />
   </head>
-  <body>
+  <body style="background-color: black">
     <button class="button--hide">hide filter</button>
     <div class="aside">
       <div class="slash"></div>
       <div class="sectionAside">
         <div class="textSectionAside">
           <div class="titleAside">
-            <span class="showcategories"> categories </span>
+            <a onclick="showHideCategories()"> categories </a>
             <span
               class="aside__sectionAside--textSectionAside--titleAside--dispaly showcategories"
               id="displayed"
@@ -25,7 +25,7 @@
             </span>
           </div>
           <div class="sectionSpace">
-            <button class="clearCategories">x</button>
+            <button class="clearCategories" id="clearCategoriesBtn">x</button>
           </div>
         </div>
       </div>
@@ -55,16 +55,16 @@
       <div class="sectionAside">
         <div class="textSectionAside">
           <div class="titleAside">
-            <span class="showcreators">creators</span>
+            <a onclick="hideCreators()"> creators </a>
             <span
-              class="aside__sectionAside--textSectionAside--titleAside--dispaly showcategories"
+              class="aside__sectionAside--textSectionAside--titleAside--dispaly showcreators"
               id="displayed"
             >
               (38)
             </span>
           </div>
           <div class="sectionSpace">
-            <button class="clearCreators">x</button>
+            <button class="clearCreators" id="clearCreatorsBtn">x</button>
           </div>
         </div>
       </div>
@@ -99,5 +99,6 @@
         </span>
       </div>
     </div>
+    <script src="filterMenu.js"></script>
   </body>
 </html>
