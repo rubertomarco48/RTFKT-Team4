@@ -1,8 +1,34 @@
 .podio {
   display: flex;
-  flex-direction: column;
   margin-top: 1rem;
   gap: 1rem;
+  display: flex;
+  width: 928px;
+  height: 368px;
+  background-color: #272932;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+.podio__classifica {
+  margin-top: 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.podio__contdesc {
+  color: white;
+  font-size: 30px;
+  max-width: 300px;
+  margin-top: 90px;
+  margin-left: 2rem;
+  font-family: "Sohne";
+}
+.podio__imageNft {
+  display: flex;
+  height: 160px;
+  width: 216px;
+  margin-left: 2rem;
+  margin-top: 80px;
 }
 .podio__challenge {
   color: white;
@@ -11,22 +37,22 @@
 }
 .podio__structure {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  width: 400px;
+  height: 70px;
   background: linear-gradient(90deg, rgb(102, 88, 53) 0%, rgb(39, 41, 50) 100%);
   border-radius: 24px;
 }
 .podio__structure2 {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  max-width: 400px;
+  max-height: 70px;
   background: linear-gradient(90deg, rgb(70, 70, 93) 0%, rgb(39, 41, 50) 100%);
   border-radius: 24px;
 }
 .podio__structure3 {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  max-width: 400px;
+  max-height: 70px;
   background: linear-gradient(90deg, rgb(57, 42, 29) 0%, rgb(40, 40, 52) 100%);
   border-radius: 24px;
 }
@@ -100,4 +126,5 @@
   font-family: "Sohne Breit";
   color: white;
   font-size: 16px;
-}/*# sourceMappingURL=podio.css.map */
+}
+/*# sourceMappingURL=podio.css.map */
