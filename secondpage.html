@@ -10,31 +10,43 @@
     <link rel="stylesheet" href="./component/navbar/style.css">
 </head>
 <body>
+  <div class="mobileMenu" id="mobileMenu">
+
+  </div>
     <img class="img_bcg" src="./assets/banner-bg-2.jpg">
     <div class="overlay"></div>
-      <header>
-        <nav class="top__nav">
-          <div class="logo__image">
-            <a href="./index.html">
-              <img src="/assets/img/rtfktlogo.svg" alt="" />
-            </a>
-          </div>
-          <div class="right__nav">
-            <div class="transparent__button">
-              <div class="drops__cont"><a href="./secondpage.html">DROPS ARCHIVE</a></div>
-              <div class="creat__cont"><a href="">CREATORS</a></div>
-              <div class="coll__cont">
-                <a href="">COLLECTIONS</a>
-                <img src="/assets/img/dropdownarrow.svg" alt="" />
-              </div>
-              <div class="wtf__cont"><a href="">WTF</a></div>
+    <header id="header">
+      <nav class="top__nav" id="nav">
+        <div class="logo__image" id="logo_image">
+          <a href="./index.html" class="hidden" id="hidden">
+            <img src="./assets/rtfkt_swoosh.svg" alt="">
+          </a>
+          <a href="./index.html" id="visible" class="visible">
+            <img src="/assets/img/rtfktlogo.svg" alt="" />
+          </a>
+        </div>
+        <div class="right__nav" id="visibleButton">
+          <div class="transparent__button" id="hiddenButton">
+            <div class="drops__cont">
+              <a href="./secondpage.html">DROPS ARCHIVE</a>
             </div>
-            <div class="rounded__button">
-              <button>SIGN IN</button>
+            <div class="creat__cont"><a href="">CREATORS</a></div>
+            <div class="coll__cont">
+              <a href="">COLLECTIONS</a>
+              <img src="/assets/img/dropdownarrow.svg" alt="" />
             </div>
+            <div class="wtf__cont"><a href="">WTF</a></div>
           </div>
-        </nav>
-      </header>
+          <div class="rounded__button">
+            <button >SIGN IN</button>
+          </div>
+        </div>
+        <div id="hiddenMenu" class="hiddenMenu">
+          <img src="./assets/clipart773806.png" alt="">
+        </div>
+        <script src="./component/navbar/navbar.js"></script>
+      </nav>
+    </header>
       <div class="head_second_page">
         <h1>THE <span> ARCHIVE </span></h1>
       </div>
