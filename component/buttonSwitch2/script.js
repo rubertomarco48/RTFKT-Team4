@@ -1,6 +1,6 @@
 const switch3 = document.getElementById("switch3")
 const switch2 = document.getElementById("switch2")
-const cardContainer = document.querySelector('.snap__cont__video');
+const cardContainer = document.getElementById("grid_card_centered");
 
 switch3.addEventListener("click", () => {
   cardContainer.style.gridTemplateColumns = 'repeat(3, 1fr)';
