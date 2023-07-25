@@ -9,6 +9,8 @@
   font-size: calc(1.325rem + 0.9vw);
 }
 .testoJs .objJavascript {
+  max-width: 11ch;
+  position: relative;
   text-decoration: none;
   color: white;
   font-family: "TTAlientzVar";
@@ -29,4 +31,20 @@
 .testoInterattivo {
   width: 100%;
   padding: 2rem;
+  position: relative;
+}
+
+#img_new {
+  z-index: 100;
+  position: absolute;
+  border-radius: 1rem;
+  width: 50px;
+  height: 200px;
+  margin-left: 75px;
+  position: fixed;
+  opacity: 1;
+  /* blur(epx) brightness(1); */
+  transition: opacity 5eems ease-in-out es, filter 0.33s ease-in-out Os;
+  pointer-events: none;
+  z-index: 5;
 }/*# sourceMappingURL=style.css.map */
