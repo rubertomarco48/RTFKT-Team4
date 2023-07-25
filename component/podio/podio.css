@@ -1,8 +1,36 @@
 .podio {
   display: flex;
-  flex-direction: column;
   margin-top: 1rem;
   gap: 1rem;
+  display: flex;
+  width: 1128px;
+  height: 368px;
+  background-color: #272932;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+.podio__classifica {
+  margin-top: 1rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  max-width: 900px;
+}
+.podio__contdesc {
+  color: white;
+  font-size: 30px;
+  min-width: 300px;
+  margin-top: 90px;
+  margin-left: 1rem;
+  font-family: "Sohne";
+}
+.podio__imageNft {
+  display: flex;
+  height: 230px;
+  width: 300px;
+  margin-top: 80px;
+  margin-right: 6rem;
 }
 .podio__challenge {
   color: white;
@@ -11,22 +39,22 @@
 }
 .podio__structure {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  width: 400px;
+  height: 70px;
   background: linear-gradient(90deg, rgb(102, 88, 53) 0%, rgb(39, 41, 50) 100%);
   border-radius: 24px;
 }
 .podio__structure2 {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  max-width: 400px;
+  max-height: 70px;
   background: linear-gradient(90deg, rgb(70, 70, 93) 0%, rgb(39, 41, 50) 100%);
   border-radius: 24px;
 }
 .podio__structure3 {
   display: flex;
-  min-width: 400px;
-  min-height: 70px;
+  max-width: 400px;
+  max-height: 70px;
   background: linear-gradient(90deg, rgb(57, 42, 29) 0%, rgb(40, 40, 52) 100%);
   border-radius: 24px;
 }
@@ -100,4 +128,60 @@
   font-family: "Sohne Breit";
   color: white;
   font-size: 16px;
-}/*# sourceMappingURL=podio.css.map */
+}
+
+@media (max-width: 414px) {
+  .podio {
+    margin-top: 0;
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 800px;
+  }
+  .podio__contdesc {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .podio__structure {
+    width: 314px;
+    height: 60px;
+  }
+  .podio__structure2 {
+    width: 314px;
+    height: 60px;
+  }
+  .podio__structure3 {
+    width: 314px;
+    height: 60px;
+  }
+  .podio__ranking {
+    width: 60px;
+    height: 50px;
+  }
+  .podio__ranking2 {
+    width: 60px;
+    height: 50px;
+  }
+  .podio__ranking3 {
+    width: 60px;
+    height: 50px;
+  }
+  .podio__logo {
+    width: 36px;
+    height: 36px;
+  }
+  .podio__first {
+    font-size: 24px;
+  }
+  .podio__second {
+    font-size: 24px;
+  }
+  #podioImage {
+    width: 180px;
+    height: 180px;
+    margin-left: 4.5rem;
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=podio.css.map */
