@@ -147,3 +147,60 @@
     font-size: 16px;
   }
 }
+@media (max-width: 414px) {
+  .podio {
+    margin-top: 0;
+    margin-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 800px; 
+    &__contdesc{
+    font-size: 20px;
+    margin-top: 15px;
+    }
+    &__structure {
+      width: 314px;
+      height: 60px;
+    }
+    &__structure2 {
+      width: 314px;
+      height: 60px;
+    }
+    &__structure3 {
+      width: 314px;
+      height: 60px;
+    }
+    &__ranking {
+      width: 60px;
+      height: 50px;
+    }
+    &__ranking2 {
+      width: 60px;
+      height: 50px;
+
+    }
+    &__ranking3 {
+      width: 60px;
+      height: 50px;
+
+    }
+    &__logo{
+      width: 36px;
+      height: 36px;
+    }
+    &__first {
+      font-size: 24px;
+    }
+    &__second {
+      font-size: 24px;
+    }
+  }
+  #podioImage{
+    width: 180px;
+    height: 180px;
+    margin-left: 4.5rem;
+    margin-top: 0px;
+  }
+  
+}
