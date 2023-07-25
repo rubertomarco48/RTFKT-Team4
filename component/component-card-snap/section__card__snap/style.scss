@@ -55,10 +55,9 @@
 
 @media screen and (max-width:400px){
     .snap__cont{
-        width:300%;
+        width:1200px;
         overflow-x:scroll;
         .snap__cont__video{
-            display: flex;
             gap:1rem;
     
         }
