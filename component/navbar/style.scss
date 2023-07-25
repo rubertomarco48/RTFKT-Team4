@@ -6,6 +6,8 @@
 
 header {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 .top__nav {
   display: flex;
@@ -203,4 +205,13 @@ width: 151px;
   position: absolute;
   top: 80px;
   background-color: white;
+}
+.dropdownHomepage{
+  display: none;
+  width: 100%;
+  
+  background-color: #2C2D39;
+  position: absolute;
+  align-self: flex-end;
+  
 }
