@@ -1,19 +1,25 @@
-const $podio__first = document.querySelector('podio__first')
-// const $podio__first2 = document.querySelector('podio__first2')
-// const $podio__first3 = document.querySelector('podio__first3')
+// Ottieni l'elemento img
+const imgElement = document.getElementById('podioImage');
 
-$podio__first.addEventListener('mouseenter', (item) => {
-    let a  = item.a;
-    if(a.classList.contains('podio__first')){
-        const id = a.dataset.id;
-        $podio__image1.src='https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png';
+function changeImageByPodio(podioPosition) {
+    let imageURL;
+    switch (podioPosition) {
+        case 1:
+            imageURL = 'https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png'; 
+            break;
+        case 2:
+            imageURL = 'https://cdn.rtfkt.com/assets/images/creatorChallenge/creator2.png'; 
+            break;
+        case 3:
+            imageURL = 'https://cdn.rtfkt.com/assets/images/creatorChallenge/creator3.png'; 
+            break;
+        default:
+            imageURL = ''; 
+            break;
     }
-})
+    imgElement.src = imageURL;
+}
 
-$podio__first.addEventListener('mouseleave', (item) => {
-    let a  = item.a;
-    if(a.classList.contains('podio__first')){
-        const id = a.dataset.id;
-        $podio__image1.src='https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png';
-    }
-})
+function restoreImage() {
+    imgElement.src = 'https://cdn.rtfkt.com/assets/images/creatorChallenge/creator1.png';
+}

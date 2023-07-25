@@ -3,7 +3,7 @@
   margin-top: 1rem;
   gap: 1rem;
   display: flex;
-  width: 928px;
+  width: 1128px;
   height: 368px;
   background-color: #272932;
   margin-top: 2rem;
@@ -14,21 +14,23 @@
   gap: 1rem;
   display: flex;
   flex-direction: column;
+  margin-right: 1rem;
+  max-width: 900px;
 }
 .podio__contdesc {
   color: white;
   font-size: 30px;
-  max-width: 300px;
+  min-width: 300px;
   margin-top: 90px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-family: "Sohne";
 }
 .podio__imageNft {
   display: flex;
-  height: 160px;
-  width: 216px;
-  margin-left: 2rem;
+  height: 230px;
+  width: 300px;
   margin-top: 80px;
+  margin-right: 6rem;
 }
 .podio__challenge {
   color: white;
