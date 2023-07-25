@@ -1,11 +1,15 @@
 const drop = document.querySelector("#dropMenu");
 drop.addEventListener("click", ()=>{
-    if(document.querySelector("#dropdownHomepage").style.display === "block"){
+    if(document.querySelector("#dropdownHomepage").style.display === "flex"){
         document.querySelector("#dropdownHomepage").style.display="none";
-        
+        document.querySelector(".videoCardSup__overlay").style.zIndex="0"
+        document.querySelector(".subTitle__video").style.zIndex="0"   
+        document.querySelector(".text__video").style.zIndex="0"     
    }else{
-        document.querySelector("#dropdownHomepage").style.display="block"
-        document.querySelector("#dropdownHomepage").style.height="400px"
+        document.querySelector("#dropdownHomepage").style.display="flex"
+        document.querySelector(".videoCardSup__overlay").style.zIndex="-1"
+        document.querySelector(".subTitle__video").style.zIndex="-1"
+        document.querySelector(".text__video").style.zIndex="-1"
     }
 });
 
