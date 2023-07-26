@@ -37,4 +37,10 @@
 
 svg {
   fill: white;
+}
+
+@media screen and (max-width: 400px) {
+  .searchPage {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
