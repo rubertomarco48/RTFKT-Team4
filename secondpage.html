@@ -4,42 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./component/footer/footer.css" />
-    <link rel="stylesheet" href="./component/skeleton/common.css" />
-    <link rel="stylesheet" href="./component/head-second-page/style.css" />
-    <link rel="stylesheet" href="./component/navbar/style.css" />
+    <link rel="stylesheet" href="component/footer/footer.css" />
+    <link rel="stylesheet" href="component/skeleton/common.css" />
+    <link rel="stylesheet" href="component/head-second-page/style.css" />
+    <link rel="stylesheet" href="component/navbar/style.css" />
     <link
       rel="stylesheet"
-      href="./component/component-card-shoes/video_card.css"
+      href="component/component-card-shoes/video_card.css"
     />
-    <link rel="stylesheet" href="./component/filter-menu/filterMenu.css" />
-    <link rel="stylesheet" href="./component/component_grid_card/style2.css" />
-    <link rel="stylesheet" href="./component/buttonSearch2/style.css" />
-    <link rel="stylesheet" href="./component/buttonSwitch2/style.css" />
+    <link rel="stylesheet" href="component/filter-menu/filterMenu.css" />
+    <link rel="stylesheet" href="component/component_grid_card/style2.css" />
+    <link rel="stylesheet" href="component/buttonSearch2/style.css" />
+    <link rel="stylesheet" href="component/buttonSwitch2/style.css" />
   </head>
   <body>
+    <div class="dropdownHomepage" id="dropdownHomepage">
+      <div class="primaColonna">
+        <h3>ECOSYSTEMS</h3>
+        <ul>
+          <li>CloneX x Takashi Murakami</li>
+          <li>MNLTH and Skin Vials</li>
+          <li>RTFKT Pods</li>
+          <li>Creators</li>
+        </ul>
+      </div>
+      <div class="secondaColonna">
+        <h3>UPCOMING EVENT</h3>
+        <ul>
+          <li>RTFKT Animus Egg</li>
+          <li>RTFKT Skin Vial Evo X</li>
+          <li>RTFKT x Nike Dunk Genesis Cryptokicks</li>
+        </ul>
+      </div>
+      <div class="terzaColonna">
+        <h3>OTHER COLLECTIONS</h3>
+        <div class="containerUL">
+          <ul>
+            <li>RTFKT x RIMOWA</li>
+            <li>RTFKT Cryptokicks iRL</li>
+            <li>RTFKT x Nike Air Force 1</li>
+            <li>RTFKT x Takashi Murakami x Geisai Event</li>
+            <li>Clone X SZN 1</li>
+            <li>RTFKT x Nike Footballverse Jersey</li>
+            <li>RTFKT x D.O.A.F AR Helmet</li>
+          </ul>
+          <ul>
+            <li>Punk Project</li>
+            <li>Fewocious</li>
+            <li>Jeff Staple</li>
+            <li>Space Drip 1.2</li>
+            <li>Space Drip</li>
+            <li>RTFKT Space Drip x Nike Air Force 1</li>
+            <li>RTFKT x Takashi Murakami x Gagosian</li>
+          </ul>
+        </div>
+      </div>
+      <div class="quartaColonna">
+        <div class="immagine_boh">
+          <img src="assets/egg.jpg" class="egg" />
+          <h3 class="upCard">FEATURES DROPS</h3>
+          <h3 class="middleCard">RTFKT Animus Egg</h3>
+          <h3 class="downCard">16.4K items</h3>
+        </div>
+      </div>
+    </div>
     <div class="mobileMenu" id="mobileMenu"></div>
-    <img class="img_bcg" src="./assets/banner-bg-2.jpg" />
+    <img class="img_bcg" src="assets/banner-bg-2.jpg" />
     <div class="overlay"></div>
     <header id="header">
       <nav class="top__nav" id="nav">
         <div class="logo__image" id="logo_image">
-          <a href="./index.html" class="hidden" id="hidden">
-            <img src="./assets/rtfkt_swoosh.svg" alt="" />
+          <a href="index.html" class="hidden" id="hidden">
+            <img src="assets/rtfkt_swoosh.svg" alt="" />
           </a>
-          <a href="./index.html" id="visible" class="visible">
-            <img src="/assets/img/rtfktlogo.svg" alt="" />
+          <a href="index.html" id="visible" class="visible">
+            <img src="assets/img/rtfktlogo.svg" alt="" />
           </a>
         </div>
         <div class="right__nav" id="visibleButton">
           <div class="transparent__button" id="hiddenButton">
             <div class="drops__cont">
-              <a href="./secondpage.html">DROPS ARCHIVE</a>
+              <a href="secondpage.html">DROPS ARCHIVE</a>
             </div>
             <div class="creat__cont"><a href="">CREATORS</a></div>
             <div class="coll__cont">
-              <a href="">COLLECTIONS</a>
-              <img src="/assets/img/dropdownarrow.svg" alt="" />
+              <a href="" id="dropMenu">COLLECTIONS</a>
+              <img src="assets/img/dropdownarrow.svg" alt="" />
             </div>
             <div class="wtf__cont"><a href="">WTF</a></div>
           </div>
@@ -48,9 +98,10 @@
           </div>
         </div>
         <div id="hiddenMenu" class="hiddenMenu">
-          <img src="./assets/clipart773806.png" alt="" />
+          <img src="assets/clipart773806.png" alt="" />
         </div>
-        <script src="./component/navbar/navbar.js"></script>
+        <script src="component/navbar/navbar.js"></script>
+        <script src="component/navbar/nabar3.js"></script>
       </nav>
     </header>
     <div class="head_second_page">
@@ -184,7 +235,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="./assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -195,7 +246,7 @@
                 <video loop muted aria-controls="none" class="videox">
                   <source
                     type="video/mp4"
-                    src="./assets/video/video-card-shoes.mp4"
+                    src="assets/video/video-card-shoes.mp4"
                   />
                 </video>
                 <div class="secondContainar">
@@ -223,7 +274,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -231,9 +282,8 @@
                 </div>
               </div>
               <div class="product">
-
                 <video loop muted aria-controls="none" class="videox">
-                  <source type="video/mp4" src="./assets/video/alien.mp4" />
+                  <source type="video/mp4" src="assets/video/alien.mp4" />
                 </video>
                 <div class="secondContainar">
                   <div class="play" id="play">
@@ -260,7 +310,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -296,7 +346,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -305,7 +355,7 @@
               </div>
               <div class="product">
                 <video loop muted aria-controls="none" class="videox">
-                  <source type="video/mp4" src="./assets/video/clip.mp4" />
+                  <source type="video/mp4" src="assets/video/clip.mp4" />
                 </video>
                 <div class="secondContainar">
                   <div class="play" id="play">
@@ -332,7 +382,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -343,7 +393,7 @@
                 <video loop muted aria-controls="none" class="videox">
                   <source
                     type="video/mp4"
-                    src="./assets/video/Final_MNLTH.mp4"
+                    src="assets/video/Final_MNLTH.mp4"
                   />
                 </video>
                 <div class="secondContainar">
@@ -371,7 +421,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -380,7 +430,7 @@
               </div>
               <div class="product">
                 <video loop muted aria-controls="none" class="videox">
-                  <source type="video/mp4" src="./assets/video/HumanCap.mp4" />
+                  <source type="video/mp4" src="assets/video/HumanCap.mp4" />
                 </video>
                 <div class="secondContainar">
                   <div class="play" id="play">
@@ -407,46 +457,7 @@
               <div class="containar-title">
                 <div class="title">
                   <img
-                    src="../../assets/image/image-logo-card.png"
-                    alt="logo"
-                    class="logo"
-                  />
-                  <span class="text">@RTFKT</span>
-                </div>
-              </div>
-              <div class="product">
-                <video loop muted aria-controls="none" class="videox">
-                  <source
-                    type="video/mp4"
-                    src="../../assets/video/video-card-shoes.mp4"
-                  />
-                </video>
-                <div class="secondContainar">
-                  <div class="play" id="play">
-                    <img
-                      src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
-                      alt="play icon"
-                      height="11"
-                      width="11"
-                      data-v-c0b4d82e=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="footer">
-                <div class="second-title">
-                  <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
-                </div>
-                <div class="containarSubtitle">
-                  <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
-                </div>
-              </div>
-            </div>
-            <div class="containar">
-              <div class="containar-title">
-                <div class="title">
-                  <img
-                    src="../../assets/image/image-logo-card.png"
+                    src="assets/image/image-logo-card.png"
                     alt="logo"
                     class="logo"
                   />
@@ -457,7 +468,7 @@
                 <video loop muted aria-controls="none" class="videox">
                   <source
                     type="video/mp4"
-                    src="./assets/video/Rimowa_Luggage_Green.mp4"
+                    src="assets/video/video-card-shoes.mp4"
                   />
                 </video>
                 <div class="secondContainar">
@@ -481,7 +492,46 @@
                 </div>
               </div>
             </div>
-            <script src="./component/component-card-shoes/video-card copy.js"></script>
+            <div class="containar">
+              <div class="containar-title">
+                <div class="title">
+                  <img
+                    src="assets/image/image-logo-card.png"
+                    alt="logo"
+                    class="logo"
+                  />
+                  <span class="text">@RTFKT</span>
+                </div>
+              </div>
+              <div class="product">
+                <video loop muted aria-controls="none" class="videox">
+                  <source
+                    type="video/mp4"
+                    src="assets/video/Rimowa_Luggage_Green.mp4"
+                  />
+                </video>
+                <div class="secondContainar">
+                  <div class="play" id="play">
+                    <img
+                      src="https://cdn.rtfkt.com/assets/icons/play-right-white.svg"
+                      alt="play icon"
+                      height="11"
+                      width="11"
+                      data-v-c0b4d82e=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="second-title">
+                  <h5>RTFKT x Nike Dunk Genesis CRYPTOKICKS</h5>
+                </div>
+                <div class="containarSubtitle">
+                  <span class="subtitle" data-v-2d3408bc="">1 / 20000</span>
+                </div>
+              </div>
+            </div>
+            <script src="component/component-card-shoes/video-card copy.js"></script>
           </div>
         </div>
       </div>
@@ -490,8 +540,8 @@
       <div class="footer_element">
         <div class="footer_description">
           <div class="footer_description_logo">
-            <a href="../../index.html">
-              <img src="/assets//img/rtfktlogo.svg" alt="" />
+            <a href="index.html">
+              <img src="assets//img/rtfktlogo.svg" alt="" />
             </a>
           </div>
           <p class="footer_description_p">
@@ -542,7 +592,7 @@
         </p>
       </div>
     </footer>
-    <script src="./component/buttonSwitch2/script.js"></script>
-    <script src="./component/buttonSearch2/script.js"></script>
+    <script src="component/buttonSwitch2/script.js"></script>
+    <script src="component/buttonSearch2/script.js"></script>
   </body>
 </html>
