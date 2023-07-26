@@ -232,6 +232,21 @@ width: 151px;
   color: white;
   font-size: 1rem;
 }
+.dropdownHomepage .upCard {
+  top: 20px;
+  position: absolute;
+  left: 10px;
+}
+.dropdownHomepage .middleCard {
+  bottom: 40px;
+  position: absolute;
+  left: 10px;
+}
+.dropdownHomepage .downCard {
+  bottom: 0px;
+  position: absolute;
+  left: 10px;
+}
 .dropdownHomepage h3 {
   padding-bottom: 2rem;
 }
