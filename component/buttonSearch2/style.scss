@@ -10,7 +10,7 @@
         outline: none;
         background-color: #272932;
         border:none;
-        height:41px;
+        height:46px;
         color: white;
         &::placeholder{
             color: white;
@@ -33,4 +33,10 @@
 }
 svg{
     fill:white
+}
+
+@media screen and (max-width:400px){
+    .searchPage{
+        display:none;
+    }
 }
