@@ -205,6 +205,31 @@ width: 151px;
   position: absolute;
   background-color: #2c2d39;
   z-index: 100;
+  .rounded__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 80px;
+    padding-right: 24px;
+
+    & button {
+      font-family: "Sohne Breit";
+      font-size: 15px;
+      color: white;
+      font-weight: bold;
+      width: 104px;
+      height: 48px;
+      border-radius: 25px;
+      background-color: #5733f5;
+      border: none;
+
+      &:hover {
+        background-color: #3f16f4;
+      }
+    }
+  }
+ 
   h3,ul{
    color: white;
    margin-left: 20px;
