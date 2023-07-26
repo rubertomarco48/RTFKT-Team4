@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="component/footer/footer.css" />
     <link rel="stylesheet" href="component/skeleton/common.css" />
     <link rel="stylesheet" href="component/head-second-page/style.css" />
     <link rel="stylesheet" href="component/navbar/style.css" />
@@ -19,6 +18,7 @@
     <link rel="stylesheet" href="component/filter-menu/filterMenu.css" />
     <link rel="stylesheet" href="component/filter-button-hider/index.css" />
     <link rel="stylesheet" href="component/filter-button/index.css" />
+    <link rel="stylesheet" href="component/footer/footer.css" />
   </head>
   <body>
     <div class="dropdownHomepage" id="dropdownHomepage">
@@ -613,21 +613,40 @@
       </div>
     </main>
     <footer>
-      <div class="footer_element">
-        <div class="footer_description">
+      <div class="footer_element" id="footerRoot">
+        <div class="footer_description" id="footer1">
           <div class="footer_description_logo">
             <a href="index.html">
-              <img src="assets/img/rtfktlogo.svg" alt="" />
+              <img src="assets//img/rtfktlogo.svg" alt="" />
             </a>
           </div>
           <p class="footer_description_p">
             We are a creator led organisation. RTFKT uses the latest in game
             engines, NFT, blockchain authentication and augmented reality,
-            combined with manufacturing expertise to create one of a kind
-            sneakers and digital artifacts.
+            combined with manufacturing expertise to create one of a kind sneakers
+            and digital artifacts.
           </p>
         </div>
-        <div class="footer_terms">
+        <div class="footerHide" id="footerHide">
+          <ul>
+            <li>
+              <a href=""><button>Instagram</button></a>
+            </li>
+            <li>
+              <a href=""><button>Discord</button></a>
+            </li>
+            <li>
+              <a href=""><button>Twitter</button></a>
+            </li>
+            <li>
+              <a href=""><button>Youtube</button></a>
+            </li>
+            <li>
+              <a href=""><button>TikTok</button></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_terms" id="footer2">
           <ul>
             <li><a href="">FAQ</a></li>
             <li><a href="">Legal Overview</a></li>
@@ -636,7 +655,7 @@
             <li><a href="">Press Info</a></li>
           </ul>
         </div>
-        <div class="footer_social">
+        <div class="footer_social" id="footer3">
           <ul>
             <li>
               <a href=""><button>Instagram</button></a>
@@ -658,10 +677,9 @@
       </div>
       <div class="footer_copyright">
         <p>
-          RTFKT is a registered trademark of RTFKT Inc. All Rights Reserved.
-          RTFKT
+          RTFKT is a registered trademark of RTFKT Inc. All Rights Reserved. RTFKT
           <br />
-
+  
           All logos are registered trademarks of their respective owners. All
           contents of this document, unless otherwise credited, are copyright ©
           2023 RTFKT Inc.
